@@ -1,0 +1,63 @@
+html {
+  scroll-behavior: smooth !important;
+}
+
+body {
+  margin: 0
+
+}
+
+.transition-custom {
+  transition: all 0.5s ease;
+}
+
+.hoverScale :hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease;
+}
+
+.MuiBackdrop-root div{
+  border:none !important;
+  box-shadow: none !important;
+  /* background-color: transparent !important; */
+}
+
+.MuiTablePagination-caption {
+  display: inline-block !important;
+  direction: ltr !important;
+}
+a{
+  color: inherit !important;
+}
+.MuiButton-contained{
+  color: white !important;
+}
+/* .MuiTableCell-root{
+  border: 0 !important;
+} */
+.MuiTableCell-root.MuiTableCell-head{
+  border: 0 !important;
+  border-bottom: 0.5px solid rgb(182, 182, 182) !important;
+  white-space: nowrap !important;
+}
+.MuiTableCell-root.MuiTableCell-head{
+font-size: 14px !important;
+}
+.MuiInputLabel-outlined.MuiInputLabel-shrink {
+  transform: translate(-14px, -20px) scale(0.75) !important;
+}
+
+
+/* iframe{
+  display: none;
+} */
+
+
+
+.MuiDrawer-paper {
+  width: 100% !important;
+}
+
+.PrivateSwipeArea-root-85 {
+  display: none !important;
+}

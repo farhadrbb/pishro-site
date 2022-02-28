@@ -1,0 +1,52 @@
+.root {
+    text-align: right;
+    /* padding: 120px 0; */
+    border: none;
+}
+
+.cardAccordion {
+    border: none !important;
+}
+
+.accordionHeader {
+    background-color: rgba(100, 165, 28, 0.2) !important;
+    /* border-radius: 10px !important; */
+    margin-bottom: 10px !important;
+    padding: 15px 10px;
+
+}
+
+.tableThead {
+    background-color: gray;
+    border-radius: 50% !important;
+
+}
+
+.tableParent {
+    border-collapse: collapse;
+    border-radius: 1em;
+    overflow: hidden;
+
+
+}
+
+.tableParent th, .tableParent td {
+    padding: 1em;
+    border-bottom: 2px solid white;
+
+}
+
+.tableParent th {
+    background-color: #DFE3E8 !important;
+
+
+}
+
+.tableParent td {
+    background-color: white;
+}
+
+.tableParent tr:nth-child(2n+1) td {
+    background-color: #F2F4F6 !important;
+
+}
